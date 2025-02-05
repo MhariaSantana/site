@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,5 +55,63 @@ body{
     background-position:  center;/*centraliza*/
 }
 .conteudo{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(43, 41, 41, 0.678);
+	height: 100vh;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.titulo{
+	font-size: 38px;
+	padding-bottom: 3px;
+	letter-spacing: 3px;
+	font-family: "Poppins";
+	font-weight: 600;
+	color: white;
+	text-shadow: 2px 2px 5px rgb(0, 0, 0)
+}
+.subtitulo{
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+}
+.linha{
+	border: 1px solid black;
+	width: 400px;
+}
+.texto{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'Nunito';
+	font-weight: 400;
+	text-align: justify;
+	width: 400px;
+	color: white;
+}
+.meu-video{
+	width: 300px;
+	box-shadow: 4px 4px 4px 4px;
+}
+.botao-comprar{
+	margin-top: 20px;
+	border: 3px double rgba(12, 12, 12, 0);
+	font-size: 22px;
+	text-decoration: none;
+	padding: 15px;
+	width: 200px;
+	color: white;
+	background-color: black;
+	font-family: "Popins";
+	letter-spacing: 3px;
+	font-weight: 600;
+	box-shadow: 2px 2px 5px rgba(192, 194, 194, 0.603)
+	
+	
+}
+.formulario{
+	margin-top: 30px;
+	
 }
