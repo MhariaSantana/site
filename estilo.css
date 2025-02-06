@@ -49,10 +49,11 @@ table {
 
 
 body{
-    background-image: url(imagens/maquiagem.jpg);
+    
     background-size: cover; /* todo o fundo do site */
     background-repeat: no-repeat;/*não repete a imagem */
     background-position:  center;/*centraliza*/
+	
 }
 .conteudo{
     background-color: rgba(43, 41, 41, 0.678);
@@ -63,6 +64,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	z-index: 1;
 }
 .titulo{
 	font-size: 38px;
@@ -72,6 +74,7 @@ body{
 	font-weight: 600;
 	color: white;
 	text-shadow: 2px 2px 5px rgb(0, 0, 0)
+	z-
 }
 .subtitulo{
 	font-size: 30px;
@@ -111,6 +114,12 @@ body{
 	
 	
 }
+.botao-comprar:hover{
+	background-color: white;
+	color: black;
+}
+
+/* pagina 2*/
 .formulario{
 	margin-top: 30px;
 	width: 500px;
@@ -123,4 +132,53 @@ body{
 	display: block;
 	color: white;
 }
-.
+.campo{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family: "Nunito";
+	font-weight: 300;
+	margin-bottom: 10px;
+	background-color: black;
+	color: white;
+}
+.formas-pagamento{
+	background-color: transparent;
+	color: rgb(253, 245, 245);
+}
+select option {
+	margin: 40px;
+	background: rgb(14, 13, 13);
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  .botao-pagar{
+	background-color: black;
+	color: white;
+
+  }
+  
+  .subtitulo{
+	text-shadow: 2px 2px 5px rgb(0, 0, 0)
+}
+.contenier{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+.overplay{
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left: 0;
+
+}
+.fundo{background-image: url(imagens/maquiagem.jpg);}
+
+  
+  
